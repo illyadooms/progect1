@@ -21,10 +21,6 @@
     <?php
     require_once 'configBD.php';
 
-//    $dsn = "mysql:dbname=to-do;host=$servername";
-//    $pdo = new PDO($dsn, $username, $password);
-
-
     $query = $pdo->query('SELECT * FROM task');
 
     echo '<ul class="list-group">';
